@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Employment</title>
+  <!-- Add Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/adobe.css" />
+  <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/custom.css" />
+</head>
+
+<body>
+  <div class="">
+    <img src="./img/tinywow_l4k_logo_9890223-transformed.png" class="mx-auto d-block"
+      style="height: 300px; width: 300px; background-color: bisque" alt="" />
+  </div>
+  <nav class="navbar navbar-expand-sm navbar-light mb-2">
+    <div id="nav_div" class="container">
+      <a class="navbar-brand"> </a>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mx-auto mt-2 mt-lg-0 text-uppercase">
+          <li class="nav-item">
+            <a class="nav-link px-4" href="./index.html" aria-current="page">
+              <h3>Home</h3>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="./about.html">
+              <h3>About</h3>
+            </a>
+          </li>
+          <li class="nav-item" id="test">
+            <a class="nav-link px-4" href="./testimonials.html">
+              <h3>Testimonials</h3>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 text-white active" href="#">
+              <h3>Employment</h3>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="./contact.html">
+              <h3>Contact</h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="mb-5 container" style="background-color: rgb(162, 154, 154); width: max-content;">
+    <form name="mainForm" action="https://formsubmit.co/dkennard@vols.utk.edu" method="POST">
+      <div id="applicant_info" class="container mb-3">
+        <div class="row justify-content-between">
+          <div class="col-5">
+            <h1 class="display-5 fw-bolder mb-0">Love For Kelsey LLC</h1>
+            <h3 class="mb-3">Employment Application</h3>
+          </div>
+          <div class="col-2 offset-5 pt-2">
+            <img src="./img/EEO_logo.png" class="float-right img-thumbnail" alt="">
+          </div>
+        </div>
+        <h5 class="text-center">Applicant Information</h5>
+        <div class="row">
+          <div class="col-8">
+            <div class="input-group input-group-sm">
+              <span class="input-group-text fw-bolder pe-4">Full Name</span>
+              <input name="LastName" type="text" class="form-control" id="" placeholder="Last Name">
+              <input name="FirstName" type="text" class="form-control" id="" placeholder="First Name">
+              <input name="MiddleInitial" type="text" class="form-control" id="" placeholder="Middle Initial">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="input-group input-group-sm mb-3">
+              <span class="input-group-text" id="">Date</span>
+              <input name="Date_Submitted" class="form-control" type="text" placeholder="MM/DD/YYYY">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-group input-group-sm">
+            <span class="input-group-text fw-bolder d-inline-flex pe-4" style="width: 14%; height: 195%;">Address</span>
+            <input name="Address" type="text" class="form-control" id="" placeholder="Street Address"
+              style="width: 31%; height: 100%;">
+            <input name="Apt_number" type="text" class="form-control d-inline-flex" style="height: 100%;" id=""
+              placeholder="Apartment/Unit #">
+          </div>
+          <div class="input-group input-group-sm mb-3">
+            <span class="pe-4" style="width: 14%;"></span>
+            <input name="City" type="text" class="form-control" id="" placeholder="City">
+            <input name="State" type="text" class="form-control" id="" placeholder="State">
+            <input name="ZIP" type="text" class="form-control" id="" placeholder="ZIP Code">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="input-group input-group-sm">
+              <span class="input-group-text">Phone</span>
+              <input class="form-control" type="text" name="PhoneNumber" placeholder="Phone">
+            </div>
+          </div>
+          <div class="col">
+            <div class="input-group input-group-sm mb-3">
+              <span class="input-group-text">Email</span>
+              <input class="form-control" type="text" name="EmailAddress" placeholder="someone@example.com">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="input-group input-group-sm">
+              <span class="input-group-text">Date Available</span>
+              <input class="form-control" type="text" name="AvailableDate" placeholder="MM/DD/YYYY">
+            </div>
+          </div>
+          <div class="col-4 gx-1">
+            <div class="input-group input-group-sm">
+              <span class="input-group-text">Social Security Number</span>
+              <input class="form-control" type="text" name="SSN" placeholder="XXX-XX-XXXX">
+            </div>
+          </div>
+          <div class="col-4 mb-3">
+            <div class="input-group input-group-sm">
+              <span class="input-group-text">Desired Salary $</span>
+              <input class="form-control" type="text" name="DesiredPay" placeholder="">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 mb-3">
+            <div class="input-group input-group-sm">
+              <span class="input-group-text">Position Applied for</span>
+              <input class="form-control" type="text" name="Desired_Position">
+            </div>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-4">
+            <p class="">Are you a citizen of the United States?</p>
+          </div>
+          <div class="col-3">
+            <div class="form-check form-check-inline me-1">
+              <input class="form-check-input" type="radio" name="US_Citizen" id="Yes" value="YES">
+              <label class="form-check-label" for="Yes">YES</label>
+            </div>
+            <div class="form-check form-check-inline ms-1 pe-2">
+              <input class="form-check-input" type="radio" name="US_Citizen" id="No" value="NO">
+              <label class="form-check-label" for="No">NO</label>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-4">
+            <p class="">If no, are you authorized to work in the U.S.?</p>
+          </div>
+          <div class="col-3">
+            <div class="form-check form-check-inline me-1">
+              <input class="form-check-input" type="radio" name="US_Work_Auth" id="Yes" value="YES">
+              <label class="form-check-label" for="Yes">
+                YES
+              </label>
+            </div>
+            <div class="form-check form-check-inline ms-1">
+              <input class="form-check-input" type="radio" name="US_Work_Auth" id="No" value="NO">
+              <label class="form-check-label" for="No">
+                NO
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div class="col-4">
+            <p class="">Have you ever worked for this company?</p>
+          </div>
+          <div class="col-3">
+            <div class="form-check form-check-inline me-1">
+              <input class="form-check-input" type="radio" name="Previous_L4K_experience" id="Yes" value="YES">
+              <label class="form-check-label" for="Yes">
+                YES
+              </label>
+            </div>
+            <div class="form-check form-check-inline ms-1">
+              <input class="form-check-input" type="radio" name="Previous_L4K_experience" id="No" value="NO">
+              <label class="form-check-label" for="No">
+                NO
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-3 col-sm-7 ">
+            <div class="input-group input-group-sm">
+              <span class="input-group-text">If yes,when?</span>
+              <input class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div class="col-4">
+            <p class="">Have you ever been convicted of a felony?</p>
+          </div>
+          <div class="col-3">
+            <div class="form-check form-check-inline me-1">
+              <input class="form-check-input" type="radio" name="Felony_Record" id="Yes" value="YES">
+              <label class="form-check-label" for="Yes">
+                YES
+              </label>
+            </div>
+            <div class="form-check form-check-inline ms-1">
+              <input class="form-check-input" type="radio" name="Felony_Record" id="No" value="NO">
+              <label class="form-check-label" for="No">
+                NO
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-10 col-sm-12">
+            <div class="input-group input-group-sm">
+              <span class="input-group-text">If yes, explain:</span>
+              <input name="Felony_Explained" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="education" class="container">
+        <h5 class="text-center">Education</h5>
+        <div class="row mb-2">
+          <div name="edu_loc" class="col">
+          </div>
+          <div name="edu_addr" class="col">
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div name="edu_from" class="col">
+          </div>
+          <div name="edu_to" class="col">
+          </div>
+          <div name="edu_grad" class="col-2 offset-1 text-start me-0 pe-0">
+            <p> Did you graduate?</p>
+          </div>
+          <div name="edu_answer" class="col-1">
+            <div class="form-check form-check-inline px-2 mx-0 ps-0 float-start">
+              <input class="form-check-input" type="radio" name="Graduated1" id="Yes" value="YES">
+              <label class="form-check-label" for="Yes">
+                YES
+              </label>
+            </div>
+            <div class="form-check form-check-inline px-0 mx-0 float-end">
+              <input class="form-check-input" type="radio" name="Graduated1" id="No" value="NO">
+              <label class="form-check-label" for="No">
+                NO
+              </label>
+            </div>
+          </div>
+          <div name="edu_degree" name="" class="">
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div name="edu_loc" class="col">
+          </div>
+          <div name="edu_addr" class="col">
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div name="edu_from" class="col">
+          </div>
+          <div name="edu_to" class="col">
+          </div>
+          <div name="edu_grad" class="col-2 offset-1 text-start me-0 pe-0">
+            <p> Did you graduate?</p>
+          </div>
+          <div name="edu_answer" class="col-1">
+            <div class="form-check form-check-inline px-2 mx-0 ps-0 float-start">
+              <input class="form-check-input" type="radio" name="Graduated2" id="Yes" value="YES">
+              <label class="form-check-label" for="Yes">
+                YES
+              </label>
+            </div>
+            <div class="form-check form-check-inline px-0 mx-0 float-end">
+              <input class="form-check-input" type="radio" name="Graduated2" id="No" value="NO">
+              <label class="form-check-label" for="No">
+                NO
+              </label>
+            </div>
+          </div>
+          <div name="edu_degree" name="" class="">
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div name="edu_loc" class="col">
+          </div>
+          <div name="edu_addr" class="col">
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div name="edu_from" class="col">
+          </div>
+          <div name="edu_to" class="col">
+          </div>
+          <div name="edu_grad" class="col-2 offset-1 text-start me-0 pe-0">
+            <p> Did you graduate?</p>
+          </div>
+          <div name="edu_answer" class="col-1">
+            <div class="form-check form-check-inline px-2 mx-0 ps-0 float-start">
+              <input class="form-check-input" type="radio" name="Graduated3" id="Yes" value="YES">
+              <label class="form-check-label" for="Yes">
+                YES
+              </label>
+            </div>
+            <div class="form-check form-check-inline px-0 mx-0 float-end">
+              <input class="form-check-input" type="radio" name="Graduated3" id="No" value="NO">
+              <label class="form-check-label" for="No">
+                NO
+              </label>
+            </div>
+          </div>
+          <div name="edu_degree" name="" class="">
+          </div>
+        </div>
+      </div>
+      <div id="references" class="container">
+        <h5 class="text-center">References</h5>
+        <p id="ref_instructions" class="">
+          Please list three professional references.</p>
+        <div class="row">
+          <div name="name" class="col">
+          </div>
+          <div name="relation" class="col">
+          </div>
+        </div>
+        <div class="row">
+          <div name="company" class="col">
+          </div>
+          <div name="phone" class="col">
+          </div>
+        </div>
+        <div class="row">
+          <div name="address" class="col">
+          </div>
+        </div>
+        <!-- GRAY BOX  -->
+        <div class="row">
+          <div name="name" class="col">
+          </div>
+          <div name="relation" class="col">
+          </div>
+        </div>
+        <div class="row">
+          <div name="company" class="col">
+          </div>
+          <div name="phone" class="col">
+          </div>
+        </div>
+        <div class="row">
+          <div name="address" class="col">
+          </div>
+        </div>
+        <!-- GRAY BOX  -->
+        <div class="row">
+          <div name="name" class="col">
+          </div>
+          <div name="relation" class="col">
+          </div>
+        </div>
+        <div class="row">
+          <div name="company" class="col">
+          </div>
+          <div name="phone" class="col">
+          </div>
+        </div>
+        <div class="row">
+          <div name="address" class="col">
+          </div>
+        </div>
+        <p>
+        </p>
+      </div>
+      <div id="prev_employment" class="container">
+        <h5 class="text-center">Previous Employment</h5>
+        <div class="row" name="pe_row1">
+          <div name="Company"></div>
+          <div name="Phone"></div>
+        </div>
+        <div class="row" name="pe_row1">
+          <div name="Address"></div>
+          <div name="Supervisor"></div>
+        </div>
+        <div class="row" name="pe_row1">
+          <div name="Job_Title"></div>
+          <div name="Starting_Salary"></div>
+          <div name="Ending_Salary"></div>
+        </div>
+        <div class="row" name="pe_row1">
+          <div name="Responsibilites"></div>
+        </div>
+        <div class="row" name="pe_row1">
+          <div name="From"></div>
+          <div name="To"></div>
+          <div name="Reason for Leaving"></div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-5 text-center me-0">
+            <p>May we contact your previous supervisor for a reference?</p>
+          </div>
+          <div class="col-1">
+            <div class="form-check form-check-inline px-2 mx-0 ps-0 float-start">
+              <input class="form-check-input" type="radio" name="Contact_Employer_1" id="Yes" value="YES">
+              <label class="form-check-label" for="Yes">
+                YES
+              </label>
+            </div>
+            <div class="form-check form-check-inline px-0 mx-0 float-end">
+              <input class="form-check-input" type="radio" name="Contact_Employer_1" id="No" value="NO">
+              <label class="form-check-label" for="No">
+                NO
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- GRAY BOX  -->
+        <div class="row" name="pe_row2">
+          <div name="Company"></div>
+          <div name="Phone"></div>
+        </div>
+        <div class="row" name="pe_row2">
+          <div name="Address"></div>
+          <div name="Supervisor"></div>
+        </div>
+        <div class="row" name="pe_row2">
+          <div name="Job_Title"></div>
+          <div name="Starting_Salary"></div>
+          <div name="Ending_Salary"></div>
+        </div>
+        <div class="row" name="pe_row2">
+          <div name="Responsibilites"></div>
+        </div>
+        <div class="row" name="pe_row2">
+          <div name="From"></div>
+          <div name="To"></div>
+          <div name="Reason for Leaving"></div>
+        </div>
+        <div class="row mb-4 ">
+          <div class="col-5 text-center me-0">
+            <p>May we contact your previous supervisor for a reference?</p>
+          </div>
+          <div class="col-1">
+            <div class="form-check form-check-inline px-2 mx-0 ps-0 float-start">
+              <input class="form-check-input" type="radio" name="Contact_Employer_2" id="Yes" value="YES">
+              <label class="form-check-label" for="Yes">
+                YES
+              </label>
+            </div>
+            <div class="form-check form-check-inline px-0 mx-0 float-end">
+              <input class="form-check-input" type="radio" name="Contact_Employer_2" id="No" value="NO">
+              <label class="form-check-label" for="No">
+                NO
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- GRAY BOX  -->
+        <div class="row" name="pe_row3">
+          <div name="Company"></div>
+          <div name="Phone"></div>
+        </div>
+        <div class="row" name="pe_row3">
+          <div name="Address"></div>
+          <div name="Supervisor"></div>
+        </div>
+        <div class="row" name="pe_row3">
+          <div name="Job_Title"></div>
+          <div name="Starting_Salary"></div>
+          <div name="Ending_Salary"></div>
+        </div>
+        <div class="row" name="pe_row3">
+          <div name="Responsibilites"></div>
+        </div>
+        <div class="row mb" name="pe_row3">
+          <div name="From"></div>
+          <div name="To"></div>
+          <div name="Reason for Leaving"></div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-5 text-center me-0">
+            <p>May we contact your previous supervisor for a reference?</p>
+          </div>
+          <div class="col-1">
+            <div class="form-check form-check-inline px-2 mx-0 ps-0 float-start">
+              <input class="form-check-input" type="radio" name="Contact_Employer_3" id="Yes" value="YES">
+              <label class="form-check-label" for="Yes">
+                YES
+              </label>
+            </div>
+            <div class="form-check form-check-inline px-0 mx-0 float-end">
+              <input class="form-check-input" type="radio" name="Contact_Employer_3" id="No" value="NO">
+              <label class="form-check-label" for="No">
+                NO
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="military" class="container">
+        <h5 class="text-center"> Military Service </h5>
+        <div class="row" name="mil_row">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="row" name="mil_row">
+          <div></div>
+          <div></div>
+        </div>
+        <div class="row" name="mil_row">
+          <div></div>
+        </div>
+      </div>
+      <div id="signature" class="container">
+        <h5 class="text-center"> Disclaimer and Signature </h5>
+        <p id="sig1" class="lead fst-italic">I certify that my answers are true and complete to the best of my
+          knowledge.</p>
+        <p id="sig2" class="">If this application leads to employment, I understand that false or misleading information
+          in my
+          application or interview may result in my release.</p>
+        <div class="row mb-5">
+          <div id="sig3">
+          </div>
+          <div id="sig4">
+          </div>
+        </div>
+
+      </div>
+      <div class="offset-5 col-1 pb-4 mx-auto">
+        <button type="submit" class="btn btn-light btn-lg text-lg-center my-auto py-2"
+          style="scale: 150%; background-color: bisque; color: #225777;">
+          <b>Submit</b>
+        </button>
+      </div>
+    </form>
+  </div>
+  <!-- Add Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="./styleTags.js"></script>
+</body>
+
+</html>

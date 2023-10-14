@@ -1,0 +1,18 @@
+
+h5.text-center {
+    background-color: rgb(89,89,89);
+    color: white;
+}
+
+
+span.input-group-text {
+    background-color: rgb(162, 154, 154);
+    font-weight: bolder;
+    font-size: small;
+}
+
+select.form-select {
+    background-color: rgb(162, 154, 154);
+    font-weight: bolder;
+}
+

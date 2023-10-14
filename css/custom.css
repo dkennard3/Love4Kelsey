@@ -1,0 +1,47 @@
+body {
+    background-color: antiquewhite;
+}
+p {
+    font-size: large;
+}
+img {
+    height: 380.94px;
+    width: max-content;
+}
+@font-face {
+    font-family: Dosis;
+    src: url(./static/Dosis-SemiBold.ttf);
+}
+
+a.active{
+    background-color: #225777;
+}
+
+#nav_div {
+    background-color: #ffe4c4;
+}
+
+div.navbar-collapse.collapsibleNavId {
+    color: none;
+}
+
+h4 {
+    font-family: Dosis;
+    color: aliceblue;
+}
+li#test {
+    display: none;
+}
+
+h1#about1, h1#about2 {
+    color: aliceblue;
+    font-family: Dosis;
+}
+
+div#aboutMain {
+    background-color: #225777;
+}
+.h5,.h4,.h6,.h3,.h2 {
+    color: aliceblue;
+    font-family: Dosis;
+}
